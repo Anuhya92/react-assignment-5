@@ -1,0 +1,41 @@
+.movie-item {
+  background-color: #dab4b4;
+  padding: 10px 20px;
+  margin: 10px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  h3 {
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #555;
+  }
+}
+
+.search-bar {
+  padding: 15px;
+  width: 65%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ba89d8;
+}
+
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+input {
+  &:focus-visible {
+    border: 1px solid #b742ff;
+    outline-color: #b742ff;
+  }
+}
